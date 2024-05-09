@@ -12,9 +12,9 @@
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 @forelse ($movies as $movie)
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
+                    <div class="col pos_rel">
+                        <div class="card bg_dark h-100">
+                            <div class="card-body text-white text-center">
                                 <h3 class="card-title">
                                     Title: {{ $movie->title }}
                                 </h3>
@@ -26,6 +26,9 @@
                                 <div>Language: <strong>{{ $movie->language }}</strong></div>
 
                             </div>
+                        </div>
+                        <div class="bg_image">
+
                         </div>
                     </div>
                 @empty

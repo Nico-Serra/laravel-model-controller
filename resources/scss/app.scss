@@ -3,3 +3,32 @@
 .nav_active{
     background-color: gainsboro;
 }
+
+.bg_dark{
+    background-color: darkslategrey;
+   
+}
+
+.pos_rel{
+    position: relative;
+}
+
+.bg_image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-image: url(../img/movie_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    z-index: 100;
+}
+
+footer{
+    position: relative;
+    .bg_image{
+        background-size: cover;
+    }
+}

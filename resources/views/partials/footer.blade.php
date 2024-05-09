@@ -1,5 +1,7 @@
 <footer class="bg-light py-4">
-
+    <div class="bg_image">
+        
+    </div>
     <div class="container py-4">
         <div class="row">
             <div class="col border-end">
